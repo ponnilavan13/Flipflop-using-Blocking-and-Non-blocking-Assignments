@@ -2,9 +2,9 @@
 Exp 3 -Write and simulate D, SR, JK, T Flipflops using Blocking and Non blocking Assignments
    Aim: To design and simulate D, SR, JK, T Flipflops using Blocking and Non blocking Assignments in Verilog HDL and verify its functionality through a testbench using the Vivado 2023.1 simulation environment.
    
-  Apparatus Required:
+ # Apparatus Required:
   Vivado 2023.1
-Procedure:
+# Procedure:
 
 Launch Vivado Open Vivado 2023.1 by double-clicking the Vivado icon or searching for it in the Start menu. 
 Create a New Project Click on "Create Project" from the Vivado Quick Start window. In the New Project Wizard: Project Name: Enter a name for the project (e.g., Mux4_to_1). 
@@ -28,8 +28,8 @@ Take screenshots of the waveform window and include them in your lab report to d
 You can include the timing diagram from the simulation window showing the correct functionality of the Seven Segment across different select inputs and data inputs. 
 Close the Simulation Once done, by going to Simulation → "Close Simulation
 
-Input/Output Signal Diagram:
-
+# Input/Output Signal Diagram:
+```
 D FF
 
 SR FF
@@ -172,12 +172,7 @@ module t_ff_tb;
   end
 
 endmodule
-
-
-
-
-
-
+```
 Output waveform:
 D flip flop
 <img width="1121" height="632" alt="image" src="https://github.com/user-attachments/assets/c51fbd61-1a61-4470-ac62-50affc0dfb76" />
